@@ -8,7 +8,8 @@
 \usepackage{eurosym}
 \usepackage{textcomp}
 \usepackage{wrapfig} % to wrap figure in text
-\usepackage{caption} % to remove fig #
+%\usepackage{caption} % to remove fig #
+\usepackage[font=it]{caption}
 \usepackage{titlesec} % to modify chapter header
 \usepackage[normalem]{ulem}
 \usepackage{soul}
@@ -28,6 +29,7 @@
 
 \usepackage{graphicx} % Pour les images
 \graphicspath{ {Images/petit/} }
+%\graphicspath{ {Images/} }
 
 \title{Et demain on va où ?}
 \author{Gérald Schmitt \and Marion Abrial}
@@ -51,7 +53,7 @@ Voici mon porte-clé :
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p9280216.jpg}
+\includegraphics[height=9cm,width=12cm,keepaspectratio]{p9280216.jpg}
 \caption*{Mon porte clé}
 \end{figure}
 
@@ -2225,15 +2227,6 @@ On s'est fait un petit échange de cadeaux à la fin : avec les moyens du bord, 
 \caption*{Marion avec son nouveau foulard.}
 \end{figure}
 
-
-\begin{figure}[h]
-\centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1216713.jpg}
-\caption*{C'est rigolo de croiser des piétons comme ça !}
-\end{figure}
-
-
-
 \chapter{Ba Be lake, le paradis, ou presque...}
 Nous partîmes donc pour Ba Be Lake. En bus de nuit ! Notre premier bus de nuit en Asie. Les premières impressions ont été mitigées : un petit van avec des sièges confortables et légèrement inclinables, mais on était serrés dedans. Mais en fait non ! C'était juste une navette qui nous amenait au point de rendez-vous avec le vrai bus. Le point de rendez-vous, c'était sous un pont pas éclairé, et il faisait nuit. Le genre d'endroit où on attend plutôt son dealer, mais non, nous, on attendait notre bus ! Et le vrai bus était nettement mieux : de vraies couchettes dans lesquelles on est quasiment allongés. Bon, ce bus étant au format local, faut pas s'attendre à pouvoir déplier les jambes si on fait plus de 160cm, mais il est néanmoins possible de dormir pour de vrai.
 
@@ -2269,30 +2262,29 @@ A certains endroits dans la forêt, on se serait crus dans chérie j'ai rétréc
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1236728.jpg}
+\includegraphics[width=0.5\textwidth]{p1236728.jpg}
 \caption*{Il me regarde, non ?}
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{wrapfigure}{l}{0.55\textwidth}
 \centering
 \includegraphics[height=6cm,width=9cm,keepaspectratio]{p1236717.jpg}
 \caption*{Enfin une feuille de la bonne taille !}
-\end{figure}
-
-
-\begin{figure}[h]
-\centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1256818.jpg}
-\caption*{Là, c'est trop grand !}
-\end{figure}
+\end{wrapfigure}
 
 On a aussi fait une balade en bateau jusqu'à l'autre bout du lac, et on a pu visiter la fameuse île de la veuve. Il y a une légende qui dit qu'avant, ce lac n'existait pas, c'était une plaine. Un jour, alors que personne ne demandait rien, une vieille mendiante est apparue, et elle a commencé à faire ce que toutes les mendiantes font : demander de la bouffe ! Évidemment, la plupart des gens n'étaient pas dupes, et avaient bien vu que c'était du flan cette histoire de mendiante, et ne lui donnaient rien. Jusqu'à ce que la mendiante arrive à la maison de cette veuve, qui, probablement accablée de chagrin et surchargée de boulot, lui donna un peu à manger, histoire de s'en débarrasser rapidement. Et là, grosse surprise, on apprend que la mendiante est en fait une fée ! Oh, ben ça alors, tu parles d'une surprise ! Et que fait la fée pour remercier la veuve ? Elle lui dit : "Hop, monte dans ton panier que je viens de transformer en barque, et accroche-toi, je vais faire un rien de terrassement". Sur ces paroles, elle transforme la plaine en lac entouré de montagnes, et la maison de la veuve se retrouve isolée sur une minuscule île pleine de cailloux. Sympa la vieille !
 
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1246792.jpg}
+\includegraphics[height=9cm,width=9cm,keepaspectratio]{p1256818.jpg}
+\caption*{Là, c'est trop grand !}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=9cm,width=9cm,keepaspectratio]{p1246792.jpg}
 \caption*{Sur l'île de la veuve. Cosy, non ?}
 \end{figure}
 
@@ -2301,14 +2293,14 @@ J'imagine que la morale de cette histoire c'est : il ne faut pas aider les vieil
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1236723.jpg}
+\includegraphics[height=9cm,width=9cm,keepaspectratio]{p1236723.jpg}
 \caption*{Un nénufar ? (comment convertir un innocent article de voyage en article politiquement engagé en un seul mot)}
 \end{figure}
 
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1256823.jpg}
+\includegraphics[height=9cm,width=9cm,keepaspectratio]{p1256823.jpg}
 \caption*{S'il y a un biologiste qui me lit, je veux bien savoir ce que c'est !}
 \end{figure}
 
@@ -2336,11 +2328,11 @@ On progresse encore d'un cran dans l'anarchie du trafic, avec un flux ininterrom
 Une particularité des bâtiments du Vietnam commence à nous sauter franchement aux yeux : tous les bâtiments sont très étroits. Notre hôtel par exemple, ne doit faire qu'environ 4m de large, et c'est le cas de la plus grande partie des bâtiments à Hanoï et dans le Vietnam. Après enquête, il s'avère qu'il y a une taxe qui dépend de la largeur. Ça me fait penser au Pérou, ou la plupart des maisons ont un étage en construction, car les impôts commencent uniquement quand les travaux sont finis. C'est fou les conséquences d'une loi mal faite...
 
 
-\begin{figure}[h]
+\begin{wrapfigure}{l}{0.55\textwidth}
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1286874.jpg}
+\includegraphics[width=0.5\textwidth]{p1286874.jpg}
 \caption*{Exemple typique d'optimisation fiscale.}
-\end{figure}
+\end{wrapfigure}
 
 On va visiter comme il se doit le mémorial d'Ho Chi Minh, ou, comme ils l'appellent là-bas : "Oncle Ho". C'est un peu le Genghis Khan vietnamien : il a bouté les américains hors du pays, réunifié le Nord et le Sud, il apparait sur tous les billets, toutes les villes ont baptisé leur plus belle avenue en son honneur, et chaque ville se doit également d'avoir un mémorial qui lui est dédié. Celui de Hanoï est bien sûr le plus grand : en plus d'être construit autour de sa dernière résidence (il s'est fait construire une maison traditionnelle de pêcheur, sur pilotis, pour bien montrer son origine populaire), on peut aussi voir le mausolée qui, dans la tradition communiste la plus pure, abrite son corps momifié, contre sa volonté bien entendu. Évidemment, on s'est levé trop tard pour voir son corps, qui n'est visible que le matin. Quel dommage...
 
@@ -2370,7 +2362,7 @@ En fait, ce qui nous plait le plus à Hanoï, ce sont les restaurants. On commen
 
 
 \chapter{La baie d'Halong, des cailloux, de l'eau et des calamars.}
-Nous partîmes donc pour la baie d'Halong, un des incontournables du Vietnam, et ce d'autant plus que depuis quelques années, elle fait partie du patrimoine mondiale de l'UNESCO. Comme la grande majorité des gens, on prend un tour organisé au départ de Hanoï, pour deux jours et une nuit sur un bateau. Même le Lonely Planet, chantre du voyage individuel, recommande de prendre un tour plutôt que de tenter d'y aller tout seul. On avait le choix entre 3 gammes de tarifs : pour 45\euro, les repas sont à peine mangeables, les activités promises ne sont pas faites, et les guides sont désagréables. Pour 200\euro, c'est repas gastronomique, cours de Tai-Chi le matin, chambres climatisées, et chaises longues avec un matelas sur le toit du bateau. Nous on a pris le forfait à 130\euro, (en fait 100\euro, merci Marion), et on a eu des repas très bons, une chambre avec salle de bain privée, et toutes les activités promises ont été faites : on a visité une caverne, on a fait du kayak même si il a fallut se lever tôt.
+Nous partîmes donc pour la baie d'Halong, un des incontournables du Vietnam, et ce d'autant plus que depuis quelques années, elle fait partie du patrimoine mondiale de l'UNESCO. Comme la grande majorité des gens, on prend un tour organisé au départ de Hanoï, pour deux jours et une nuit sur un bateau.
 
 
 \begin{figure}[h]
@@ -2380,6 +2372,24 @@ Nous partîmes donc pour la baie d'Halong, un des incontournables du Vietnam, et
 \end{figure}
 
 
+\begin{wrapfigure}{l}{0.45\textwidth}
+\centering
+\includegraphics[width=0.4\textwidth]{p1297785.jpg}
+\caption*{Un calamar curieux.}
+\end{wrapfigure}
+
+Même le Lonely Planet, chantre du voyage individuel, recommande de prendre un tour plutôt que de tenter d'y aller tout seul. On avait le choix entre 3 gammes de tarifs : pour 45\euro, les repas sont à peine mangeables, les activités promises ne sont pas faites, et les guides sont désagréables. Pour 200\euro, c'est repas gastronomique, cours de Tai-Chi le matin, chambres climatisées, et chaises longues avec un matelas sur le toit du bateau. Nous on a pris le forfait à 130\euro, (en fait 100\euro, merci Marion), et on a eu des repas très bons, une chambre avec salle de bain privée, et toutes les activités promises ont été faites : on a visité une caverne, on a fait du kayak même si il a fallut se lever tôt.
+
+
+
+A la fin du repas du soir, un des cuisinier est venu nous montrer les calamars qu'il venait de pêcher, c'était le signal pour aller tenter ça nous-même : on met un grosse lumière à l'avant du bateau, et on agite un appât en plastique vert garni d'hameçons à l'aplomb de la lumière. Le calamar, animal curieux et naïf s'il en est, s'en approche alors  histoire d'en savoir un peu plus. Le pêcheur attentif, aux réflexes intactes malgré la bière, peut alors tirer sur sa ligne d'un coup sec, espérant ainsi embrocher le calamars qui verra sa curiosité récompensée et découvrira un monde nouveau, à base de citronnelle et d'huile chaude. Enfin, ça c'est la théorie. Mais quand même, que d'émotions quand un calamar s'approche de l'appât, puis s’enfuit à toute vitesse  en lâchant un nuage d'encre, alors que, les yeux rivés sur le calamar fuyard, on prie pour que les hameçons retombent dans l'eau plutôt que sur nos têtes...
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1297791.jpg}
+\caption*{Un Gérald patient.}
+\end{figure}
 
 
 \begin{figure}[h]
@@ -2388,21 +2398,6 @@ Nous partîmes donc pour la baie d'Halong, un des incontournables du Vietnam, et
 \caption*{Le guide a insisté : c'est un doigt ! Mais un doigt sacrément drôle car il continue de pouffer comme un ado à chaque visite quotidienne.}
 \end{figure}
 
-A la fin du repas du soir, un des cuisinier est venu nous montrer les calamars qu'il venait de pêcher, c'était le signal pour aller tenter ça nous-même : on met un grosse lumière à l'avant du bateau, et on agite un appât en plastique vert garni d'hameçons à l'aplomb de la lumière. Le calamar, animal curieux et naïf s'il en est, s'en approche alors  histoire d'en savoir un peu plus. Le pêcheur attentif, aux réflexes intactes malgré la bière, peut alors tirer sur sa ligne d'un coup sec, espérant ainsi embrocher le calamars qui verra sa curiosité récompensée et découvrira un monde nouveau, à base de citronnelle et d'huile chaude. Enfin, ça c'est la théorie. Mais quand même, que d'émotions quand un calamar s'approche de l'appât, puis s’enfuit à toute vitesse  en lâchant un nuage d'encre, alors que, les yeux rivés sur le calamar fuyard, on prie pour que les hameçons retombent dans l'eau plutôt que sur nos têtes...
-
-
-\begin{figure}[h]
-\centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1297785.jpg}
-\caption*{Un calamar curieux.}
-\end{figure}
-
-
-\begin{figure}[h]
-\centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1297791.jpg}
-\caption*{Un Gérald patient.}
-\end{figure}
 
 On a aussi visité une ferme de perle, dont la partie la plus intéressante était probablement l'apparition d'une énorme méduse, puis sa capture par des gens du cru. Les perles, c'était intéressant aussi hein ! On a vu toutes les étapes, de l'insertion du noyau à l'ouverture d'une huitre pour y trouver, oh surprise, une perle, en passant par la boutique de souvenirs ou je n'ai jamais vu autant de zéros sur une étiquette de prix ! Mais ça, comparé à un mec en chaussures de ville, en équilibre sur une latte, en train passer une corde autour d'une méduse de 30kg, j'avoue, j'hésite, et je ne sais plus très bien si je dois continuer la visite guidée ou rester pour voir qui va manger qui !
 
@@ -2427,11 +2422,9 @@ Je parle des activités mais on en oublierai presque le plus important ! La baie
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1297574.jpg}
+\includegraphics[height=9cm,width=12cm,keepaspectratio]{p1297574.jpg}
 \caption*{Notre bateau.}
 \end{figure}
-
- Avec quelques photos en plus de la baie, même si ça manque de soleil, de jolis nuages...
 
 \chapter{Ninh Binh, là où les pelleteuses chassent les barques.}
 Nous arrivâmes donc à Ninh Binh. Il faisait nuit, la gare était déserte, et un mec nous attendait avec un panneau à nos noms. C'était notre taxi, grande classe non (enfin, pour des backpackers) ? On avait fait une exception à nos habitudes, et réservé le trajet jusqu'à notre auberge de jeunesse. Et on a bien fait, elle est perdue au milieu des rizières, sur une route en terre sans éclairage. On a découvert les paysages le lendemain matin : c'est magnifique. Le coin ne vole pas son nom de Baie d'Halong terrestre : des pics karstiques entourés de rivières et de rizières. C'est calme, beau, et entièrement couvert de brouillard...
@@ -2489,21 +2482,21 @@ Le soir, on discute un peu avec le propriétaire de l'auberge et on apprend qu'i
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p2019393.jpg}
+\includegraphics[height=9cm,width=12cm,keepaspectratio]{p2019393.jpg}
 \caption*{Les filles.}
 \end{figure}
 
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p2019395.jpg}
+\includegraphics[height=9cm,width=9cm,keepaspectratio]{p2019395.jpg}
 \caption*{Les garçons.}
 \end{figure}
 
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p1318116.jpg}
+\includegraphics[height=9cm,width=12cm,keepaspectratio]{p1318116.jpg}
 \caption*{J'adore cette ambiance post-apocalyptique !}
 \end{figure}
 
@@ -2565,14 +2558,17 @@ C'est dans ce train que, intrigué par les cris d'un gamin capricieux, nous avon
 
 
 \chapter{Hoi An, la ville aux 1000 tailleurs.}
+
+\begin{wrapfigure}{l}{0.55\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{p2099955.jpg}
+\caption*{Boutique de lanternes dans Hoi An.}
+\end{wrapfigure}
+
 Nous arrivâmes donc à Hoi An, la ville que nous avons choisie pour passer la semaine de Têt. Il faut savoir que la grosse fête de fin d'année est suivie d'une semaine de vacance pour tout le pays. La majeure partie des commerces sont fermés, les transports sont blindés de gens qui rentrent dans leur famille, et globalement, tout est plus cher. C'est pourquoi nous avons décidé de nous offrir une semaine à la plage, dans une ville assez touristique pour que certains restaurants et hôtels restent ouverts.
 
 
-\begin{figure}[h]
-\centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p2099955.jpg}
-\caption*{Boutique de lanternes dans Hoi An.}
-\end{figure}
+
 
 
 Une autre caractéristique de Hoi An, ce sont les tailleurs : apparemment, dans les années 2000, il y avait une vingtaine de tailleurs à Hoi An, capables de faire des vêtements sur-mesure de bonne qualité pour un prix défiant toute concurrence. Pour une raison ou une autre, ça a grandi en popularité et d'autres tailleurs sont arrivés. En 2016, il y aurait plus de 1000 boutiques de tailleurs se battant pour attirer les touristes. On n'a pas compté les boutiques, mais on a pu constater que des rues entières, longues de plusieurs kilomètres, alignent les tailleurs les uns à coté des autres. Il y a des ateliers un peu partout pour réaliser les commandes, et ils peuvent faire un costume en quelques heures en s'y mettant à 5 ou 6 si besoin : un ouvrier sur une manche, un sur une jambe etc. Évidemment, il n'y a pas assez de touristes pour faire vivre toutes ces boutiques, ce qui tire les prix vers le bas, et les commissions vers le haut (commissions qui vont sans problème jusqu'à 40\%) ! On a bien essayé nous-même de faire un devis dans une boutique, mais pendant la seule semaine de congé nationale, disons que les prix étaient un tout petit peu moins intéressants. Au regret de Marion, je ne continuerai pas le voyage en costume sur mesure.
@@ -2658,7 +2654,7 @@ Il y a aussi la même vieille qui passe toutes les 20 min pour essayer de nous v
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p20796391.jpg}
+\includegraphics[height=9cm,width=12cm,keepaspectratio]{p20796391.jpg}
 \caption*{Elle par contre, elle était tellement sympa et commerciale, qu'elle a réussi à nous vendre des souvenirs...}
 \end{figure}
 
@@ -2667,7 +2663,7 @@ Par contre, dans la catégorie, "je suis hyper sympa", il y a cette famille (ét
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p2079645.jpg}
+\includegraphics[height=9cm,width=12cm,keepaspectratio]{p2079645.jpg}
 \caption*{Nouveau sport extrême : la cueillette de noix de coco !}
 \end{figure}
 
@@ -2701,7 +2697,7 @@ On avait bien anticipé la semaine de Têt, et pour la première fois depuis le 
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p2120007.jpg}
+\includegraphics[height=12cm,width=12cm,keepaspectratio]{p2120007.jpg}
 \caption*{Encore une vendeuse de lanternes.}
 \end{figure}
 
@@ -2718,7 +2714,7 @@ Nous arrivâmes donc à Mui Ne, une des stations balnéaires les plus connues du
 \end{figure}
 
 
-Niveau plage, on est mitigés : la plage a disparu sur la moitié de la côte, le sable a été emporté par les vagues, et il ne reste plus qu'une digue en béton qui protège la rangée d'hôtels. On doit marcher quelques km pour trouver une plage digne de ce nom. Mais cette plage est le royaume du kite-surf, ce qui implique deux choses. Premièrement, il faut faire attention de ne pas se prendre un kite-surfeur dans les gencives - non qu'ils soient mal-intentionnés, mais une proportion non négligeable des pratiquants est en phase d'apprentissage, et leurs trajectoires peuvent, si le vent est suffisamment blagueur, ponctuellement coïncider avec la trajectoire des gencives d'un baigneur trop confiant. Donc aller dans l'eau, c'est un coup de poker. Deuxièmement, si les kite-surfeurs aiment ce coin, c'est parce qu'il y a un vent très régulier, et fort. Qui soulève le sable. Et le redépose partout, comme par exemple sur une mangue fraichement découpée, ou bien sur l'objectif de l'appareil photo qui se met à faire un son louche ! Bref, rester sur la plage, c'est nul. C'est pourquoi nous avons été ravis de profiter de la magnifique piscine de notre auberge de jeunesse, qui, outre le fait d'être exempte de kite-surfeurs, de sable et de vent, comporte un bar adjacent proposant des mojitos très convenables à 1\euro, sirotables dans une chaise longue ombragée !
+Niveau plage, on est mitigés : la plage a disparu sur la moitié de la côte, le sable a été emporté par les vagues, et il ne reste plus qu'une digue en béton qui protège la rangée d'hôtels. On doit marcher quelques km pour trouver une plage digne de ce nom.
 
 
 \begin{figure}[h]
@@ -2727,7 +2723,8 @@ Niveau plage, on est mitigés : la plage a disparu sur la moitié de la côte, l
 \caption*{L'horizon est rempli de voiles.}
 \end{figure}
 
-Pour ce qui est des fruits de mer, on est apparemment dans un des meilleurs endroits du Vietnam. De nombreux restaurants exposent la pêche du jour sur le trottoir, il suffit de pointer les victimes du doigt puis d'aller s'asseoir (en vrai faut aussi dire quelle cuisson, et s'enquérir un minimum du prix). On s'est ainsi fait une langouste entière, mais la révélation, ce furent les petites coquilles saint-jacques à l'échalote, cuites au barbecue ! Des étoiles s'allument dans les yeux de Marion à la simple évocation de ce plat.
+Mais cette plage est le royaume du kite-surf, ce qui implique deux choses. Premièrement, il faut faire attention de ne pas se prendre un kite-surfeur dans les gencives - non qu'ils soient mal-intentionnés, mais une proportion non négligeable des pratiquants est en phase d'apprentissage, et leurs trajectoires peuvent, si le vent est suffisamment blagueur, ponctuellement coïncider avec la trajectoire des gencives d'un baigneur trop confiant. Donc aller dans l'eau, c'est un coup de poker. Deuxièmement, si les kite-surfeurs aiment ce coin, c'est parce qu'il y a un vent très régulier, et fort. Qui soulève le sable. Et le redépose partout, comme par exemple sur une mangue fraichement découpée, ou bien sur l'objectif de l'appareil photo qui se met à faire un son louche ! Bref, rester sur la plage, c'est nul. C'est pourquoi nous avons été ravis de profiter de la magnifique piscine de notre auberge de jeunesse, qui, outre le fait d'être exempte de kite-surfeurs, de sable et de vent, comporte un bar adjacent proposant des mojitos très convenables à 1\euro, sirotables dans une chaise longue ombragée !
+
 
 
 \begin{figure}[h]
@@ -2735,6 +2732,9 @@ Pour ce qui est des fruits de mer, on est apparemment dans un des meilleurs endr
 \includegraphics[height=6cm,width=9cm,keepaspectratio]{p2170094.jpg}
 \caption*{Le retour de la pêche.}
 \end{figure}
+
+
+Pour ce qui est des fruits de mer, on est apparemment dans un des meilleurs endroits du Vietnam. De nombreux restaurants exposent la pêche du jour sur le trottoir, il suffit de pointer les victimes du doigt puis d'aller s'asseoir (en vrai faut aussi dire quelle cuisson, et s'enquérir un minimum du prix). On s'est ainsi fait une langouste entière, mais la révélation, ce furent les petites coquilles saint-jacques à l'échalote, cuites au barbecue ! Des étoiles s'allument dans les yeux de Marion à la simple évocation de ce plat.
 
 
 \begin{figure}[h]
@@ -2787,14 +2787,14 @@ La fin de la journée nous amène aux dunes rouges, pour voir le coucher de sole
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p2160059.jpg}
+\includegraphics[height=9cm,width=12cm,keepaspectratio]{p2160059.jpg}
 \caption*{On en prend plein les yeux : de la lumière, mais aussi du sable !}
 \end{figure}
 
 
 \begin{figure}[h]
 \centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p2170084.jpg}
+\includegraphics[height=9cm,width=12cm,keepaspectratio]{p2170084.jpg}
 \caption*{J'adore cet animal !}
 \end{figure}
 
@@ -2931,13 +2931,6 @@ Après ces derniers jours au calme, c'est le moment pour nous de dire au revoir 
 \centering
 \includegraphics[height=6cm,width=9cm,keepaspectratio]{p2250901.jpg}
 \caption*{La brigade fluviale est impressionnante !}
-\end{figure}
-
-
-\begin{figure}[h]
-\centering
-\includegraphics[height=6cm,width=9cm,keepaspectratio]{p2230871-2.jpg}
-\caption*{Une libellule bien sage.}
 \end{figure}
 
 
